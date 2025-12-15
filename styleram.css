@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #212529;
+}
+h2 {
+    color: #333;
+}
+.card {
+    transition: transform 0.3s;
+    width: 300px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.cards-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #212529;
+}
+
+.patrocinadores-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.patrocinadores-container img {
+    max-width: 120px;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.patrocinadores-container img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
